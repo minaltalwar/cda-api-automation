@@ -1,0 +1,204 @@
+Request method:	POST
+Request URI:	https://10.64.114.191/cda-opbench-service/opbench/sampleshare
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=SESSION=M2ExNGEwY2YtMDIxMi00NDU3LWE5ZDktN2Y1NzQ4MmM2NDY0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "France",
+    "dashboardType": "union",
+    "endTime": "1619391600000",
+    "map": {
+        "kpi": "DL Traffic Volume-Sum"
+    },
+    "operator": [
+        "Orange",
+        "SFR",
+        "Bouygues",
+        "Free Mobile"
+    ],
+    "pixelSize": "4",
+    "polygon": null,
+    "polygonId": "0",
+    "startTime": "1619222400000",
+    "technology": "2G",
+    "carriers": [
+        
+    ],
+    "tileSize": "256",
+    "zoom": "6",
+    "sampleType": [
+        
+    ],
+    "polygonBounds": null
+}
+HTTP/1.1 200 
+Date: Mon, 11 Oct 2021 06:27:52 GMT
+Keep-Alive: timeout=60
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+[
+    {
+        "name": "SFR",
+        "share": 2
+    },
+    {
+        "name": "Bouygues",
+        "share": 16
+    },
+    {
+        "name": "Orange",
+        "share": 3
+    }
+]
+Request method:	POST
+Request URI:	https://10.64.114.191/cda-opbench-service/opbench/sampleshare
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=SESSION=ZWMwYzJhNWItOTIxNi00NmVkLWJkOTUtZjY2MjhiNWNhY2Ez
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "France",
+    "dashboardType": "union",
+    "endTime": "1619391600000",
+    "map": {
+        "kpi": "DL Traffic Volume-Sum"
+    },
+    "operator": [
+        "Orange",
+        "SFR",
+        "Bouygues",
+        "Free Mobile"
+    ],
+    "pixelSize": "4",
+    "polygon": null,
+    "polygonId": "0",
+    "startTime": "1619222400000",
+    "technology": "2G",
+    "carriers": [
+        
+    ],
+    "tileSize": "256",
+    "zoom": "6",
+    "sampleType": [
+        
+    ],
+    "polygonBounds": null
+}
+HTTP/1.1 200 
+Date: Mon, 11 Oct 2021 06:41:28 GMT
+Keep-Alive: timeout=60
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+[
+    {
+        "name": "SFR",
+        "share": 2
+    },
+    {
+        "name": "Bouygues",
+        "share": 16
+    },
+    {
+        "name": "Orange",
+        "share": 3
+    }
+]
+Request method:	POST
+Request URI:	https://10.64.114.191/cda-opbench-service/opbench/sampleshare
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=SESSION=MDFhMTdlMTYtYTQ3Mi00MmI2LThiNzYtZjJmNWRiYzE5MjU2
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "France",
+    "dashboardType": "union",
+    "endTime": "1619391600000",
+    "map": {
+        "kpi": "DL Traffic Volume-Sum"
+    },
+    "operator": [
+        "Orange",
+        "SFR",
+        "Bouygues",
+        "Free Mobile"
+    ],
+    "pixelSize": "4",
+    "polygon": null,
+    "polygonId": "0",
+    "startTime": "1619222400000",
+    "technology": "2G",
+    "carriers": [
+        
+    ],
+    "tileSize": "256",
+    "zoom": "6",
+    "sampleType": [
+        
+    ],
+    "polygonBounds": null
+}
+HTTP/1.1 200 
+Date: Mon, 11 Oct 2021 06:50:55 GMT
+Keep-Alive: timeout=60
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+[
+    {
+        "name": "SFR",
+        "share": 2
+    },
+    {
+        "name": "Bouygues",
+        "share": 16
+    },
+    {
+        "name": "Orange",
+        "share": 3
+    }
+]

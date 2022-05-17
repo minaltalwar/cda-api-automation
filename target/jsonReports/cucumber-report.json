@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-11T06:50:32.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18589000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify sampleshare API",
+        "description": "",
+        "id": "validating-sample-share;verify-sampleshare-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sample share request payload for \"DL Traffic Volume-Sum\" \"2G\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DL Traffic Volume-Sum\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2G\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefination.StepDefination.sample_share_request_payload_for(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2538000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user calls \"sampleshareAPI\" API with POST http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sampleshareAPI\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination.StepDefination.user_calls_api_with_post_http_request(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "API call success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefination.StepDefination.api_call_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SampleShare"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Sample Share",
+    "description": "",
+    "id": "validating-sample-share",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/validations.feature",
+    "tags": []
+  }
+]
